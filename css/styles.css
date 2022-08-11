@@ -246,6 +246,9 @@ input:focus {
   border-radius: 0.25rem;
   font-size: 1rem;
 }
+.form__input--zip {
+  height: 2.58rem;
+}
 .form__select:focus {
   box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 0.25);
   border: 0.1rem solid #86b7fe;
