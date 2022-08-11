@@ -242,13 +242,24 @@ input:focus {
 .form__select {
   padding: 0.575rem 2.25rem 0.375rem 0.75rem;
   width: 95%;
-  border: 1px solid #ced4da;
+  border: 0.1rem solid #ced4da;
   border-radius: 0.25rem;
+  font-size: 1rem;
+}
+.form__select:focus {
+  box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 0.25);
+  border: 0.1rem solid #86b7fe;
+  z-index: 1;
+  outline: 0;
+  transition: 0.3s;
 }
 .form__container--m20 {
   border-top: 0.03rem solid #6c757d69;
   margin-top: 1.5rem;
   padding-top: 1.5rem;
+}
+.form__payment input[type="radio"]:focus {
+  box-shadow: none;
 }
 .form__label--inline {
   display: inline;
